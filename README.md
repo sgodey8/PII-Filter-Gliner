@@ -11,7 +11,8 @@ The PII Filter Gliner uses the GLiNER model to identify and redact personally id
 ### Dependencies
 
 * Windows 10 or higher
-* Python 3.6 or higher
+* Minimum required: Python 3.6
+* Recommended: Python 3.8 or higher
 * Required libraries: json, gliner, numpy
 
 ### Installing
@@ -21,49 +22,39 @@ The PII Filter Gliner uses the GLiNER model to identify and redact personally id
 * Download the datasets as well
 * dataset1.json goes with the code from gliner1.py and vice versa
 ```
-!pip install gliner
-!pip install
+pip install gliner
+pip install json
+pip install numpy
 ```
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* After copying the code make sure you also have dataset
+* Make sure the dataset is named properly as the code is expecting a file named dataset1.json
+* After you install the libraries you can run the program
 
 ## Help
 
-Any advise for common problems or issues.
+* FileNotFoundError: Ensure that your 'datasets.json' file is in the 'datasets' folder in the same directory as your script.
+* ModuleNotFoundError: If you get this error for 'gliner', make sure you've installed it:
 ```
-command to run if program contains helper info
+pip install gliner
 ```
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Shreeyan Godey
+shreeyan.godey@gmail.com
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the Apache License version 2.0.
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Dhar Rawal was a great help all throughout creating this code and guided me if I got stuck anywhere.
