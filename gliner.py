@@ -134,7 +134,7 @@ def parse_json_data(file_path):
 
 
 # Example usage
-file_path = 'datasets/first_10_tokens.json'
+file_path = 'datasets/dataset1.json'
 result, overall_metrics = parse_json_data(file_path)
 
 
