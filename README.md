@@ -4,19 +4,26 @@ This program filters out PII(Personally Identifiable Information) from text and 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The PII Filter Gliner uses the GLiNER model to identify and redact personally identifiable information from text data. It processes text data to detect entities like names, addresses, and other sensitive information, replacing them with a <FILTERED> placeholder. The program also calculates performance metrics such as precision, recall, and F1-score to evaluate the effectiveness of the entity recognition.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Windows 10 or higher
+* Python 3.6 or higher
+* Required libraries: json, gliner, numpy
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* The code is in the gliner1.py and gliner2.py
+* Copy the code and put it into your program
+* Download the datasets as well
+* dataset1.json goes with the code from gliner1.py and vice versa
+```
+!pip install gliner
+!pip install
+```
 
 ### Executing program
 
