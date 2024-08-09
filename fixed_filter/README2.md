@@ -52,11 +52,11 @@ shreeyan.godey@gmail.com
 
 ## License
 
-This project is licensed under the Apache License version 2.0.
+* This project is licensed under the Apache License version 2.0.
 
 ## Acknowledgments
 
-Dhar Rawal guided me through making this
+* Dhar Rawal guided me through making this
 
 ## Medium Blog
 
