@@ -145,7 +145,7 @@ def parse_json_data(file_path):
     return parsed_data, overall_metrics
 
 # Example usage
-file_path = 'datasets/val2.json'
+file_path = 'datasets/dataset2.json'
 result, overall_metrics = parse_json_data(file_path)
 
 print("\nOverall Metrics:")
