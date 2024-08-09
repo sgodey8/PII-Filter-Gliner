@@ -57,3 +57,7 @@ This project is licensed under the Apache License version 2.0.
 ## Acknowledgments
 
 Dhar Rawal guided me through making this
+
+## Medium Blog
+
+* https://medium.com/@shreeyan.godey/pii-filter-implementation-adff4b80b981
